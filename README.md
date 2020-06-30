@@ -12,8 +12,9 @@ cd gannett-frontend-assessment
 Install it and run:
 
 ```sh
-npm install
-npm run dev
+yarn install
+yarn dev
+yarn test
 ```
 
 ## What is being requested
