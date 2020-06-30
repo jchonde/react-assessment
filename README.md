@@ -5,8 +5,8 @@
 Download the example [or clone the repo](https://github.com/mui-org/material-ui):
 
 ```sh
-git clone https://github.com/vercel/next.js/issues/1791
-cd gannett-frontend-assessment
+git clone https://github.com/jchonde/react-assessment.git
+cd react-assessment
 ```
 
 Install it and run:
