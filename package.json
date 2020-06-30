@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "latest",
     "clsx": "latest",
+    "eslint-config-airbnb": "^18.2.0",
     "next": "latest",
     "prop-types": "latest",
     "react": "latest",
@@ -15,6 +16,7 @@
     "build": "next build",
     "start": "next start",
     "test": "jest",
+    "lint": "eslint --ext .js --ext .jsx ./pages/** ./src/**",
     "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
   },
   "devDependencies": {
@@ -23,6 +25,8 @@
     "@testing-library/jest-dom": "^5.11.0",
     "@testing-library/react": "^10.4.3",
     "babel-jest": "^26.1.0",
+    "eslint": "^7.3.1",
+    "eslint-plugin-react": "^7.20.2",
     "jest": "^26.1.0",
     "react-test-renderer": "^16.13.1"
   },

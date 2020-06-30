@@ -18,9 +18,10 @@ npm run dev
 
 ## What is being requested
 
-1) Create a page accessible from `/my-page`.
-2) Use the `LoginForm` component to display a login form using material-ui.com components. This could look something like that: ![alt text](./LoginForm.png)
-3)
+1) Create a page accessible from the `/login` path.
+2) Use the `LoginForm` component to display a login form using [material-ui](https://material-ui.com/) components. This could look something like that: ![alt text](./LoginForm.png)
+3) The `LoginForm` should contains a submit button that once clicked display the username and password that have been entered by the user.
+4) Use the `__test__/LoginForm` to ensure that the submit trigger the appropriate action.
 
 
 ## Considerations
